@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import SellerList from '../../common/SellerList'
 
 class Home extends Component {
     render(){
         return (
             <div id="Home"  className="page">
-                <h1>这是Home组件</h1>
+               <SellerList></SellerList>
             </div>
         )
 

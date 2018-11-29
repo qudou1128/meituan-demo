@@ -1,0 +1,43 @@
+.top-placeholder{
+    background: #fff;
+    height: 22px;
+    padding-top: 15px;
+    margin-top: 10px;
+    text-align: center;
+    .top-placeholder-inner{
+        display: inline-block;
+        position: relative;
+        height: 22px;
+        line-height: 22px;
+        font-size: 14px;
+        color: #333;
+        font-weight: bold;
+        &:before{
+            content: '';
+            position: absolute;
+            top: 11px;
+            left:-30px;
+            width: 30px;
+            height: 0.5px;
+            font-size: 0;
+            border-top: 1px solid #333;
+            -webkit-transform: scaleY(0.5);
+            -moz-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            top: 11px;
+            width: 30px;
+            height: 0.5px;
+            font-size: 0;
+            border-top: 1px solid #333;
+            -webkit-transform: scaleY(0.5);
+            -moz-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+        }
+    }
+    
+    
+}
