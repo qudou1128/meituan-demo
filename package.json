@@ -25,6 +25,5 @@
   ],
   "devDependencies": {
     "node-sass": "^4.10.0"
-  },
-  "proxy": "http://i.waimai.meituan.com"
+  }
 }
