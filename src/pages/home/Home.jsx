@@ -18,10 +18,11 @@ class Home extends Component {
                         </a>
                     </div>
                 </div>
+
                 <SellerList></SellerList>
+
             </div>
         )
-
     }
 }
 
